@@ -54,16 +54,6 @@ const SupervisorListScreen: React.FC = () => {
     );
   };
 
-  const handleSupervisorChange = (itemValue: React.SetStateAction<string>, itemIndex: any) => {
-    setSelectedSupervisor(itemValue);
-    setShowPicker(false);
-  };
-
-  // Function to handle text input focus
-  const handleTextInputFocus = () => {
-    setShowPicker(true);
-  };
-
   return (
     <View style={styles.container}>
       <Text>First Name (Required)</Text>
