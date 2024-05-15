@@ -15,7 +15,7 @@ This module implements a React Native mobile application for managing supervisor
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/softdev112/supervisor-management-notification
     ```
 
 2. Navigate to the project directory:
